@@ -1,0 +1,231 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+
+
+}
+
+.logo{
+    font-size: 70px;
+    margin-left: 100px;
+    text-decoration: none;
+    color: rgb(12, 12, 12);
+    font-weight: 700;
+}
+.navUl{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-left: 100px;
+  
+   
+   
+}
+.navLi{
+    list-style: none;
+    margin-left: 100px;
+
+}
+.navA{
+    text-decoration: none;
+    padding: 6px 15px;
+    font-size: 20px;
+    font-style:normal ;
+    font-weight: 700;
+    color: rgb(57, 60, 130);
+    border-radius: 30px;
+    margin-left: 20px;
+    border: 2px solid #33caf0;
+    transition: all 1s ease;
+    
+
+}
+.navA:hover{
+    background: #076981;
+    color: rgb(228, 222, 222);
+    box-shadow: 0 0 1rem #33caf0;
+    color: #efedf0;
+   
+    
+
+}
+.active{
+    background: #076981;
+    color: rgb(228, 222, 222);
+}
+/* -------------------------------------------- */
+#section2{
+    position: absolute;
+    z-index: 2;
+}
+
+#hedding{
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-left: 90px;
+    }
+
+
+
+/* ........................................ */
+
+.scoo1{
+    position: absolute;
+    width: 300px;
+    z-index: 1000;
+    padding-right: 100px;
+    margin-left: 80%;
+    margin-top: 10%;
+  
+}
+.scoo2{
+    position: absolute;
+    width: 300px;
+   margin-right: 80%;
+    margin-top: 200PX;
+    z-index: 1003;
+
+}
+.scoo3{
+    position: absolute;
+    width: 300px;
+    padding-bottom: 100%;
+    z-index: 1004;
+    margin-left: 400px;
+    margin-top: -200px;
+}
+.scoo4{
+    position: absolute;
+    z-index: 1001;
+    width: 300px;
+    margin-left: 340px;
+    margin-top: -200px;
+    margin-top: 200px;
+}
+.shark1{
+    width: 200px;
+    position: absolute;
+    z-index: 1001;
+    margin-left: 50%;
+    
+}
+.shark2{
+    position: absolute;
+    /* margin-top: 200px; */
+    padding-left: 200px;
+    margin-left: 900px;
+}
+
+#mainBody{
+    background-image: url('images/2302.i518.018.F.m005.c9.underwater\ silhouette.jpg');
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+   
+}
+/* --------------------------------------------------- */
+#aboutHeader{
+    
+    text-align: center;
+    color: #efedf0;
+    
+    padding: 30px;
+}
+.AboutD1{
+    display: flex;
+    justify-content: space-evenly;
+}
+#section2{
+    background-color: #023846;
+}
+#section2 img{
+    border-radius: 0px;
+    width: 900px;
+   
+}
+#section2 p{
+    color: #fff;
+    font-size: 22px;
+}
+/* --------------------------------- */
+
+#section3{
+        background-color: #045367;}
+
+.workImg1 img{
+    width: 600;
+    height: 400;
+    border-radius: 20px;
+} 
+.workImg1{
+    display: flex;
+    justify-content: center;
+    
+}
+.img2{
+    display: flex;
+    justify-content: space-between;
+}
+/* ---------------------------------------- */
+.corosel{
+    margin-top: 10%;
+    width: 800px;
+    height: 700px;
+    
+}
+.listScooba{
+    font-size: 22px;
+    margin-top: 200px;
+    margin-left: 100px;
+    color: #ffff;
+}
+
+
+
+
+
+#section4{
+    display: flex;
+    background-color: #045367;
+}
+.contactIcons{
+    font-size: 40px;
+    
+}
+#contactDi{
+    display: flex;
+     justify-content: center;
+     
+}
+#contactDi a i{
+    margin-left: 20px;
+}
+.contactIconsUp{
+    font-size: 40px;
+    float: right;
+   padding-right: 70px;
+}
+
+
+
+/* ---------------------------------footer */
+#footer footer{
+    display: flex;
+    justify-content: space-evenly;
+    color: #1abee7;
+    margin-top: 10%;
+}
+#footer p{
+    font-size: 13px;
+}
+#footer p{
+    font-size: 18px;
+}
+
+::-webkit-scrollbar{
+    transition: all 0.3s ease
+}
